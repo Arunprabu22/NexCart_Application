@@ -1,44 +1,61 @@
-Nxt Trendz Application
-Nxt Trendz is a modern e-commerce application built with React. It provides a seamless shopping experience for users, allowing them to browse products, add items to their cart, and manage their orders.
+# NexCart Application 🛒
 
-Live Demo 🚀
-You can access the live application here: [arunnxttrendz.ccbp.tech/login](https://arunnxttrendz.ccbp.tech/login)
+NexCart is a modern, feature-rich e-commerce application built with React.js. It offers a seamless shopping experience with advanced features like smart budgeting, product comparison, and real-time database integration using Supabase.
 
-## 🎥 Workflow Video
+## 🚀 Live Demo
+**[Insert Your Live Link Here]** *(e.g., https://arunnxttrendz.ccbp.tech/login)*
 
-You can watch a video of the application in action : https://drive.google.com/drive/folders/1N8-RP8DZsWto4R4gsIlXSWzOKOgBER6T?usp=sharing.
+## 📹 Workflow Video
+**[Insert Video Link Here]**
 
-Login Credentials:
+---
 
-Username: rahul
+## ✨ Key Features
 
-Password: rahul@2021
+### 🔐 Authentication & User Data
+- **Supabase Integration:** Secure user authentication (Sign Up / Login) and real-time database storage.
+- **Persistent Cart:** Cart items are synced to the Supabase database, ensuring users don't lose their selections across sessions.
+- **Protected Routes:** Secure navigation ensures only authenticated users access the shop, cart, and profile.
 
-Features ✨
-User Authentication: Secure login system for users.
+### 🛍️ Shopping Experience
+- **Product Browsing:** Explore a wide variety of products with sorting and filtering options.
+- **Detailed Views:** comprehensive product details page for in-depth information.
+- **Shopping Cart:** Easy-to-use cart management with increment/decrement functionality.
 
-Product Listings: Browse a wide variety of products with sorting and filtering options.
+### 💰 Smart Budget Management (New!)
+- **Budget Limit:** Users can set a maximum spending limit.
+- **Real-time Warnings:** The app alerts users if adding an item or increasing quantity exceeds their set budget.
+- **Smart Budget Bundle:** A dedicated view to help users maximize their budget.
 
-Product Details: View detailed information for each product.
+### ⚖️ Product Comparison (New!)
+- **Compare Mode:** Users can add products to a "Compare List" to view features side-by-side.
+- **Limit Logic:** Comparison is restricted to 2 items at a time for focused analysis.
 
-Shopping Cart: Add products to the cart and manage quantities.
+---
 
-Empty Cart View: A user-friendly message when the cart is empty.
+## 💻 Technologies Used
 
-Prime Deals: Exclusive deals for prime members.
+- **Frontend:** [React.js](https://reactjs.org/) (v17)
+- **Routing:** [React Router DOM](https://v5.reactrouter.com/)
+- **Backend / DB:** [Supabase](https://supabase.com/) (Auth & Database)
+- **Styling:** CSS3
+- **Utilities:** - `js-cookie` for session management
+  - `react-icons` for UI icons
+  - `react-loader-spinner` for loading states
 
-Protected Routes: Certain routes are protected and require authentication.
+---
 
-Technologies Used 💻
-React: A JavaScript library for building user interfaces.
+## 🛠️ Getting Started
 
-React Router: For handling client-side routing.
+Follow these instructions to set up the project locally on your machine.
 
-React Icons: A library for including popular icons in your React projects.
+### Prerequisites
+- Node.js (v12 or higher)
+- npm or yarn
 
-React Loader Spinner: A library for creating loading spinners.
+### Installation
 
-JS Cookie: A simple, lightweight JavaScript API for handling cookies.
-
-CSS: For styling the application.
-
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/arunprabu22/nexcart_application.git](https://github.com/arunprabu22/nexcart_application.git)
+   cd nexcart_application
